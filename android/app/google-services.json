@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057049778277",
+    "project_id": "crypto-tracker-35c06",
+    "storage_bucket": "crypto-tracker-35c06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057049778277:android:d8497de78b02cfc06a4e8c",
+        "android_client_info": {
+          "package_name": "com.example.crypto_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057049778277-mcg16m6h5qmm7l7tuv1llbm5lk8bnimm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7v0UyyyuvMcsG4bHpYaWq7Rrr2DMkHC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057049778277-mcg16m6h5qmm7l7tuv1llbm5lk8bnimm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
