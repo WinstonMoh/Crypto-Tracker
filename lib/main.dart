@@ -1,6 +1,8 @@
-import 'package:crypto_tracker/ui/authentication.dart';
+import 'package:crypto_tracker/ui/welcome.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+
+import 'constants.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized(); // Needed to initialize firebase
@@ -15,8 +17,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Crypto Tracker',
-      home: Authentication(),
+      home: Welcome(),
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primaryColor: primaryColor,
+        scaffoldBackgroundColor: Colors.blueGrey[20],
+      ),
     );
   }
 }
