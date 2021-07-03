@@ -38,5 +38,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Install npm
+        run: npm install -g npm
+      - name: Install write-good
+        run: npm install -g write-good
+      - uses: actions/checkout@v2
       - name: Run write-good
         run: write-good *.md
