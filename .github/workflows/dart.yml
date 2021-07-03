@@ -39,4 +39,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run write-good
-      - run: write-good *.md
+        run: write-good *.md
